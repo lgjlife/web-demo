@@ -12,7 +12,6 @@ public class WebController {
 
     @RequestMapping("/demo")
     public String demo(){
-
         return new Random().nextInt(100)+"";
     }
 }
